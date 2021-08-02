@@ -1,6 +1,6 @@
 {
   "name": "esdoc-latest-publish-html-plugin",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A publish HTML plugin for ESDoc",
   "license": "MIT",
   "repository": {
@@ -11,7 +11,7 @@
     "@babel/generator": "^7.14.8",
     "cheerio": "^1.0.0-rc.10",
     "escape-html": "1.0.3",
-    "fs-extra": "^10.0.0",
+    "fs-extra": "^9.1.0",
     "ice-cap": "0.0.4",
     "marked": "^2.1.3",
     "taffydb": "2.7.2"
@@ -23,6 +23,7 @@
     "@babel/register": "^7.14.5",
     "esdoc-accessor-plugin": "^1.0.0",
     "esdoc-latest": "^1.0.1",
+    "esdoc-latest-accessor-plugin": "^1.0.0",
     "esdoc-latest-brand-plugin": "^1.0.0",
     "esdoc-latest-coverage-plugin": "^1.1.0",
     "esdoc-latest-ecmascript-proposal-plugin": "^1.0.0",

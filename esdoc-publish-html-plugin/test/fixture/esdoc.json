@@ -4,15 +4,15 @@
   "index": "./test/fixture/README.md",
   "package": "./test/fixture/package.json",
   "plugins": [
-    {"name": "esdoc-brand-plugin", "option": {"logo": "./test/fixture/logo.png", "image": "https://esdoc.org/manual/asset/image/logo.png"}},
-    {"name": "esdoc-coverage-plugin"},
-    {"name": "esdoc-ecmascript-proposal-plugin", "option": {"all": true}},
-    {"name": "esdoc-external-ecmascript-plugin", "option": {"enable": true}},
-    {"name": "esdoc-accessor-plugin", "option": {"access": ["public", "protected", "private"], "autoPrivate": true}},
+    {"name": "esdoc-latest-brand-plugin", "option": {"logo": "./test/fixture/logo.png", "image": "https://esdoc.org/manual/asset/image/logo.png"}},
+    {"name": "esdoc-latest-coverage-plugin"},
+    {"name": "esdoc-latest-ecmascript-proposal-plugin", "option": {"all": true}},
+    {"name": "esdoc-latest-external-ecmascript-plugin", "option": {"enable": true}},
+    {"name": "esdoc-latest-accessor-plugin", "option": {"access": ["public", "protected", "private"], "autoPrivate": true}},
     {"name": "esdoc-latest-type-inference-plugin", "option": {"enable": true}},
-    {"name": "esdoc-undocumented-identifier-plugin"},
-    {"name": "esdoc-unexported-identifier-plugin"},
-    {"name": "esdoc-integrate-manual-plugin", "option": {
+    {"name": "esdoc-latest-undocumented-identifier-plugin"},
+    {"name": "esdoc-latest-unexported-identifier-plugin"},
+    {"name": "esdoc-latest-integrate-manual-plugin", "option": {
       "index": "./test/fixture/manual/index.md",
       "files": [
         "./test/fixture/manual/overview.md",
@@ -28,7 +28,7 @@
         "./test/fixture/CHANGELOG.md"
       ]
     }},
-    {"name": "esdoc-integrate-test-plugin", "option": {
+    {"name": "esdoc-latest-integrate-test-plugin", "option": {
       "type": "mocha",
       "source": "./test/fixture/test",
       "includes": ["Test.js$"]
