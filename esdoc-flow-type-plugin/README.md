@@ -3,7 +3,7 @@
 
 ## Install
 ```bash
-npm install esdoc-flow-type-plugin
+npm install esdoc-latest-flow-type-plugin
 ```
 
 ## Config
@@ -12,7 +12,7 @@ npm install esdoc-flow-type-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-flow-type-plugin", "option": {"enable": true}}
+    {"name": "esdoc-latest-flow-type-plugin", "option": {"enable": true}}
   ]
 }
 ```
@@ -49,6 +49,3 @@ export class Foo {
 
 ## LICENSE
 MIT
-
-## Author
-[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)

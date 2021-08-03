@@ -1,7 +1,7 @@
 # ESDoc Standard Plugin
 ## Install
 ```bash
-npm install esdoc-standard-plugin
+npm install esdoc-latest-standard-plugin
 ```
 
 ## Config
@@ -11,7 +11,7 @@ npm install esdoc-standard-plugin
   "destination": "./doc",
   "plugins": [
     {
-      "name": "esdoc-standard-plugin",
+      "name": "esdoc-latest-standard-plugin",
       "option": {
         "lint": {"enable": true},
         "coverage": {"enable": true},
@@ -58,21 +58,19 @@ npm install esdoc-standard-plugin
 }
 ```
 
-The `esdoc-standard-plugin` is a glue plugin. The following plugins are used by this.
-- [esdoc-lint-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-lint-plugin)
-- [esdoc-coverage-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-coverage-plugin)
-- [esdoc-accessor-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-accessor-plugin)
-- [esdoc-type-inference-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-type-inference-plugin)
-- [esdoc-external-ecmascript-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-external-ecmascript-plugin)
-- [esdoc-brand-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-brand-plugin)
-- [esdoc-undocumented-identifier-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-undocumented-identifier-plugin)
-- [esdoc-unexported-identifier-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-unexported-identifier-plugin)
-- [esdoc-integrate-manual-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-integrate-manual-plugin)
-- [esdoc-integrate-test-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-integrate-test-plugin)
-- [esdoc-publish-html-plugin](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-publish-html-plugin)
+The `esdoc-latest-standard-plugin` is a glue plugin. The following plugins are used by this.
+- [esdoc-latest-lint-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-lint-plugin)
+- [esdoc-latest-coverage-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-coverage-plugin)
+- [esdoc-latest-accessor-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-accessor-plugin)
+- [esdoc-latest-type-inference-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-type-inference-plugin)
+- [esdoc-latest-external-ecmascript-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-external-ecmascript-plugin)
+- [esdoc-latest-brand-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-brand-plugin)
+- [esdoc-latest-undocumented-identifier-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-undocumented-identifier-plugin)
+- [esdoc-latest-unexported-identifier-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-unexported-identifier-plugin)
+- [esdoc-latest-integrate-manual-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-integrate-manual-plugin)
+- [esdoc-latest-integrate-test-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-integrate-test-plugin)
+- [esdoc-latest-publish-html-plugin](https://github.com/esdoc/esdoc-latest-plugins/tree/master/esdoc-publish-html-plugin)
 
 ## LICENSE
 MIT
 
-## Author
-[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)

@@ -1,7 +1,7 @@
 # ESDoc Accessor Plugin
 ## Install
 ```bash
-npm install esdoc-accessor-plugin
+npm install esdoc-latest-accessor-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-accessor-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-accessor-plugin", "option": {"access": ["public", "protected", "private"], "autoPrivate": true}}
+    {"name": "esdoc-latest-accessor-plugin", "option": {"access": ["public", "protected", "private"], "autoPrivate": true}}
   ]
 }
 ```
@@ -21,5 +21,3 @@ npm install esdoc-accessor-plugin
 ## LICENSE
 MIT
 
-## Author
-[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)

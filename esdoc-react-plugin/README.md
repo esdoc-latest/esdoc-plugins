@@ -18,7 +18,7 @@ export default class MyClass extends React.Component {
 
 ## Install
 ```bash
-npm install esdoc-react-plugin
+npm install esdoc-latest-react-plugin
 ```
 
 ## Config
@@ -28,16 +28,13 @@ npm install esdoc-react-plugin
   "destination": "./doc",
   "plugins": [
     {"name": "esdoc-standard-plugin"},
-    {"name": "esdoc-react-plugin"}
+    {"name": "esdoc-latest-react-plugin"}
   ]
 }
 ```
 
 ## Dependency
-- esdoc-standard-plugin
+- esdoc-latest-standard-plugin
 
 ## LICENSE
 MIT
-
-## Author
-[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)

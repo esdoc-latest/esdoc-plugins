@@ -1,7 +1,7 @@
 # ESDoc Integrate Test Plugin
 ## Install
 ```bash
-npm install esdoc-integrate-test-plugin
+npm install esdoc-latest-integrate-test-plugin
 ```
 
 ## Config
@@ -11,7 +11,7 @@ npm install esdoc-integrate-test-plugin
   "destination": "./docs",
   "plugins": [
     {
-      "name": "esdoc-integrate-test-plugin",
+      "name": "esdoc-latest-integrate-test-plugin",
       "option": {
         "source": "./test/",
         "interfaces": ["describe", "it", "context", "suite", "test"],
@@ -31,5 +31,3 @@ npm install esdoc-integrate-test-plugin
 ## LICENSE
 MIT
 
-## Author
-[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)
