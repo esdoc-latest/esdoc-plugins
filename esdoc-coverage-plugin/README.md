@@ -1,7 +1,7 @@
 # ESDoc Coverage Plugin
 ## Install
 ```
-npm install esdoc-coverage-plugin
+npm install esdoc-latest-coverage-plugin
 ```
 
 ## Config
@@ -11,7 +11,7 @@ npm install esdoc-coverage-plugin
   "destination": "./doc",
   "plugins": [
     {
-      "name": "esdoc-coverage-plugin", 
+      "name": "esdoc-latest-coverage-plugin", 
       "option": {
         "enable": true,
         "kind": ["class", "method", "member", "get", "set", "constructor", "function", "variable"]
@@ -28,5 +28,3 @@ npm install esdoc-coverage-plugin
 ## LICENSE
 MIT
 
-## Author
-[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)

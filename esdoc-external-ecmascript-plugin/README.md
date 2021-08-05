@@ -1,7 +1,7 @@
 # ESDoc External ECMAScript Plugin
 ## Install
 ```bash
-npm install esdoc-external-ecmascript-plugin
+npm install esdoc-latest-external-ecmascript-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-external-ecmascript-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-external-ecmascript-plugin", "option": {"enable": true}}
+    {"name": "esdoc-latest-external-ecmascript-plugin", "option": {"enable": true}}
   ]
 }
 ```

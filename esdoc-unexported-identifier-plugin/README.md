@@ -1,7 +1,7 @@
 # ESDoc Unexported Identifier Plugin
 ## Install
 ```bash
-npm install esdoc-unexported-identifier-plugin
+npm install esdoc-latest-unexported-identifier-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-unexported-identifier-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-unexported-identifier-plugin", "option": {"enable": false}}
+    {"name": "esdoc-latest-unexported-identifier-plugin", "option": {"enable": false}}
   ]
 }
 ```
@@ -20,5 +20,3 @@ npm install esdoc-unexported-identifier-plugin
 ## LICENSE
 MIT
 
-## Author
-[Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)
